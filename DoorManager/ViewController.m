@@ -9,8 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *tapsCountLabel;
-@property (nonatomic, readwrite) NSInteger tapsCount;
+@property (weak, nonatomic) IBOutlet UILabel *test;
 
 @end
 
@@ -18,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.tapsCount = 0;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -32,8 +30,7 @@
 }
 
 - (IBAction)tapButton:(UIButton *)sender {
-    self.tapsCount++;
-    self.tapsCountLabel.text = [NSString stringWithFormat:@"Taps Count: %ld", (long)self.tapsCount];
+    self.test.text = @"AN INTRUDER";
 }
 
 @end
