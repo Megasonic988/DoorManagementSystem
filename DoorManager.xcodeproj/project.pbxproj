@@ -14,6 +14,7 @@
 		0A18E2391C58793B0021DB74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A18E2381C58793B0021DB74 /* Images.xcassets */; };
 		0A18E23C1C58793B0021DB74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A18E23A1C58793B0021DB74 /* LaunchScreen.xib */; };
 		0A18E2481C58793B0021DB74 /* DoorManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18E2471C58793B0021DB74 /* DoorManagerTests.m */; };
+		A84C87C61C5D6B0200DE9DFE /* IntruderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84C87C51C5D6B0200DE9DFE /* IntruderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0A18E2411C58793B0021DB74 /* DoorManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A18E2461C58793B0021DB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A18E2471C58793B0021DB74 /* DoorManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoorManagerTests.m; sourceTree = "<group>"; };
+		A84C87C41C5D6B0200DE9DFE /* IntruderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntruderViewController.h; sourceTree = "<group>"; };
+		A84C87C51C5D6B0200DE9DFE /* IntruderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntruderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				0A18E2321C58793B0021DB74 /* ViewController.h */,
 				0A18E2331C58793B0021DB74 /* ViewController.m */,
 				0A18E2351C58793B0021DB74 /* Main.storyboard */,
+				A84C87C41C5D6B0200DE9DFE /* IntruderViewController.h */,
+				A84C87C51C5D6B0200DE9DFE /* IntruderViewController.m */,
 				0A18E2381C58793B0021DB74 /* Images.xcassets */,
 				0A18E23A1C58793B0021DB74 /* LaunchScreen.xib */,
 				0A18E22B1C58793B0021DB74 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				0A18E2341C58793B0021DB74 /* ViewController.m in Sources */,
 				0A18E2311C58793B0021DB74 /* AppDelegate.m in Sources */,
 				0A18E22E1C58793B0021DB74 /* main.m in Sources */,
+				A84C87C61C5D6B0200DE9DFE /* IntruderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

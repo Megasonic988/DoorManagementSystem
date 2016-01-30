@@ -9,7 +9,6 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *test;
 @property (weak, nonatomic) IBOutlet UILabel *dmsLabel;
 
 @end
@@ -30,8 +29,8 @@
     
 }
 
-- (IBAction)tapButton:(UIButton *)sender {
-    self.test.text = @"AN INTRUDER";
+- (IBAction)whoshomeButton:(id)sender {
 }
+
 
 @end
