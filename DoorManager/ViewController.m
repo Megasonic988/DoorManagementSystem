@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *test;
+@property (weak, nonatomic) IBOutlet UILabel *dmsLabel;
 
 @end
 
