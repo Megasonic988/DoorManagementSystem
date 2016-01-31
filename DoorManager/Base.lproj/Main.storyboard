@@ -83,6 +83,9 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2by-rJ-ybr">
+                                <rect key="frame" x="67" y="341" width="240" height="190"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.93020148026315808" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="0.73999999999999999" colorSpace="calibratedRGB"/>
@@ -94,6 +97,7 @@
                     <navigationItem key="navigationItem" id="Lfm-Ee-Tsa"/>
                     <connections>
                         <outlet property="anIntruder" destination="R2i-cH-uRw" id="FLv-eG-7dY"/>
+                        <outlet property="imageview" destination="2by-rJ-ybr" id="wlk-dc-nJK"/>
                     </connections>
                 </viewController>
             </objects>

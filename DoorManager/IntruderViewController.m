@@ -10,6 +10,9 @@
 
 @interface IntruderViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *anIntruder;
+@property (strong, nonatomic) IBOutlet UIImageView *imageview;
+
+@property (strong, nonatomic) UIImage * myImage;
 
 @end
 
@@ -18,7 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
+    _myImage = [UIImage imageNamed: @"1"];
+    self.imageview = [[UIImageView alloc] initWithImage: _myImage];}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
