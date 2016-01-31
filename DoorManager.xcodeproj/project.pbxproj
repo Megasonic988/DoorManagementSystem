@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1622CF1C5DA657003197FD /* DoorPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1622CE1C5DA657003197FD /* DoorPhotosTVC.m */; };
+		0A1622D21C5DA8BB003197FD /* RecentDoorPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1622D11C5DA8BB003197FD /* RecentDoorPhotosTVC.m */; };
+		0A1622D51C5DAA4A003197FD /* PhotoFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1622D41C5DAA4A003197FD /* PhotoFetcher.m */; };
+		0A1622D81C5DB925003197FD /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1622D71C5DB925003197FD /* ImageViewController.m */; };
 		0A18E22E1C58793B0021DB74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18E22D1C58793B0021DB74 /* main.m */; };
 		0A18E2311C58793B0021DB74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18E2301C58793B0021DB74 /* AppDelegate.m */; };
-		0A18E2341C58793B0021DB74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18E2331C58793B0021DB74 /* ViewController.m */; };
 		0A18E2371C58793B0021DB74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A18E2351C58793B0021DB74 /* Main.storyboard */; };
 		0A18E2391C58793B0021DB74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A18E2381C58793B0021DB74 /* Images.xcassets */; };
 		0A18E23C1C58793B0021DB74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A18E23A1C58793B0021DB74 /* LaunchScreen.xib */; };
 		0A18E2481C58793B0021DB74 /* DoorManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18E2471C58793B0021DB74 /* DoorManagerTests.m */; };
-		371F6018BA76ED4020DED6A8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EE89D97D976D6B4000A60A /* libPods.a */; };
-		A84C87C61C5D6B0200DE9DFE /* IntruderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84C87C51C5D6B0200DE9DFE /* IntruderViewController.m */; };
+		6A84B5342A36A0517A94FEFE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBB6CEB3B585932128B9EAA /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,24 +31,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1622CD1C5DA657003197FD /* DoorPhotosTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorPhotosTVC.h; sourceTree = "<group>"; };
+		0A1622CE1C5DA657003197FD /* DoorPhotosTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorPhotosTVC.m; sourceTree = "<group>"; };
+		0A1622D01C5DA8BB003197FD /* RecentDoorPhotosTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentDoorPhotosTVC.h; sourceTree = "<group>"; };
+		0A1622D11C5DA8BB003197FD /* RecentDoorPhotosTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentDoorPhotosTVC.m; sourceTree = "<group>"; };
+		0A1622D31C5DAA4A003197FD /* PhotoFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoFetcher.h; sourceTree = "<group>"; };
+		0A1622D41C5DAA4A003197FD /* PhotoFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoFetcher.m; sourceTree = "<group>"; };
+		0A1622D61C5DB925003197FD /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = "../../../Interesting Practice/Imaginarium/Imaginarium/ImageViewController.h"; sourceTree = "<group>"; };
+		0A1622D71C5DB925003197FD /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = "../../../Interesting Practice/Imaginarium/Imaginarium/ImageViewController.m"; sourceTree = "<group>"; };
 		0A18E2281C58793B0021DB74 /* DoorManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A18E22C1C58793B0021DB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A18E22D1C58793B0021DB74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A18E22F1C58793B0021DB74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A18E2301C58793B0021DB74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A18E2321C58793B0021DB74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A18E2331C58793B0021DB74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A18E2361C58793B0021DB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A18E2381C58793B0021DB74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0A18E23B1C58793B0021DB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0A18E2411C58793B0021DB74 /* DoorManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A18E2461C58793B0021DB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A18E2471C58793B0021DB74 /* DoorManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoorManagerTests.m; sourceTree = "<group>"; };
-		46EE89D97D976D6B4000A60A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBB6CEB3B585932128B9EAA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54169AD9A3A39FB43128A2C8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7D2A3DCBC65586A01E8EECC1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		A84C87C41C5D6B0200DE9DFE /* IntruderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntruderViewController.h; sourceTree = "<group>"; };
-		A84C87C51C5D6B0200DE9DFE /* IntruderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntruderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371F6018BA76ED4020DED6A8 /* libPods.a in Frameworks */,
+				6A84B5342A36A0517A94FEFE /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,14 +99,18 @@
 			children = (
 				0A18E22F1C58793B0021DB74 /* AppDelegate.h */,
 				0A18E2301C58793B0021DB74 /* AppDelegate.m */,
-				0A18E2321C58793B0021DB74 /* ViewController.h */,
-				0A18E2331C58793B0021DB74 /* ViewController.m */,
 				0A18E2351C58793B0021DB74 /* Main.storyboard */,
-				A84C87C41C5D6B0200DE9DFE /* IntruderViewController.h */,
-				A84C87C51C5D6B0200DE9DFE /* IntruderViewController.m */,
 				0A18E2381C58793B0021DB74 /* Images.xcassets */,
 				0A18E23A1C58793B0021DB74 /* LaunchScreen.xib */,
 				0A18E22B1C58793B0021DB74 /* Supporting Files */,
+				0A1622CD1C5DA657003197FD /* DoorPhotosTVC.h */,
+				0A1622CE1C5DA657003197FD /* DoorPhotosTVC.m */,
+				0A1622D01C5DA8BB003197FD /* RecentDoorPhotosTVC.h */,
+				0A1622D11C5DA8BB003197FD /* RecentDoorPhotosTVC.m */,
+				0A1622D31C5DAA4A003197FD /* PhotoFetcher.h */,
+				0A1622D41C5DAA4A003197FD /* PhotoFetcher.m */,
+				0A1622D61C5DB925003197FD /* ImageViewController.h */,
+				0A1622D71C5DB925003197FD /* ImageViewController.m */,
 			);
 			path = DoorManager;
 			sourceTree = "<group>";
@@ -143,7 +153,7 @@
 		EE8CB21CC17ADF7F65A01D5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46EE89D97D976D6B4000A60A /* libPods.a */,
+				3CBB6CEB3B585932128B9EAA /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,6 +210,7 @@
 				TargetAttributes = {
 					0A18E2271C58793B0021DB74 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = BMRR84DU62;
 					};
 					0A18E2401C58793B0021DB74 = {
 						CreatedOnToolsVersion = 6.3;
@@ -299,10 +310,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A18E2341C58793B0021DB74 /* ViewController.m in Sources */,
+				0A1622D21C5DA8BB003197FD /* RecentDoorPhotosTVC.m in Sources */,
+				0A1622D81C5DB925003197FD /* ImageViewController.m in Sources */,
+				0A1622D51C5DAA4A003197FD /* PhotoFetcher.m in Sources */,
 				0A18E2311C58793B0021DB74 /* AppDelegate.m in Sources */,
+				0A1622CF1C5DA657003197FD /* DoorPhotosTVC.m in Sources */,
 				0A18E22E1C58793B0021DB74 /* main.m in Sources */,
-				A84C87C61C5D6B0200DE9DFE /* IntruderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +444,13 @@
 			baseConfigurationReference = 7D2A3DCBC65586A01E8EECC1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DoorManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -444,10 +460,13 @@
 			baseConfigurationReference = 54169AD9A3A39FB43128A2C8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DoorManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
